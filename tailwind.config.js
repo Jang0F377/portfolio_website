@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     lineHeight: {
-      DEFAULT: '1.7'
+      DEFAULT: "1.7",
     },
     extend: {
       colors: {
@@ -14,9 +14,9 @@ module.exports = {
         "color-light": "rgba(255, 255, 255, 0.6)",
       },
       backgroundImage: {
-        "main": "url(/src/assets/bg-texture.png)"
-      }
+        main: "url(/src/assets/bg-texture.png)",
+      },
     },
   },
   plugins: [],
-}
+};

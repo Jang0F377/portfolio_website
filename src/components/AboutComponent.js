@@ -35,33 +35,36 @@ const AboutComponent = () => {
             <article className="bg-background-variant border border-2 border-transparent rounded-xl p-8 text-center hover:bg-transparent hover:border-color-primary-variant">
               <FiUsers className="mx-auto text-color-primary text-2xl mb-4" />
               <div className="text-base sm:text-xl">Clients</div>
-              <small className="text-sm text-color-light">30+ Worldwide</small>
+              <small className="text-sm text-color-light">20+ Worldwide</small>
               <small className="text-sm text-color-light"></small>
             </article>
             <article className="bg-background-variant border border-2 border-transparent rounded-xl p-8 text-center hover:bg-transparent hover:border-color-primary-variant">
               <VscFolderLibrary className="mx-auto text-color-primary text-2xl mb-4" />
               <div className="text-base sm:text-xl">Projects</div>
-              <small className="text-sm text-color-light">40+ Completed</small>
+              <small className="text-sm text-color-light">20+ Completed</small>
             </article>
           </div>
           <div className="flex flex-col basis-2/3">
-            <p className="mt-8 text-color-light">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              ultrices arcu quis elementum condimentum. Morbi leo neque, porta
-              non dapibus eu, interdum vel magna. Pellentesque varius libero ac
-              ligula lobortis, et posuere justo efficitur. Phasellus placerat
-              interdum risus, ut interdum augue luctus at. Duis tincidunt, mi eu
-              volutpat semper, ex sem lobortis felis, vitae dapibus arcu enim
-              vitae dolor. Nulla varius aliquet semper. Cras ac est interdum
-              elit ultrices gravida.{" "}
+            <p className="mt-8 text-white lg:text-lg">
+              Hello world, my name is Matt Garrett. I'm a self-taught programmer
+              with over 3 years of experience. While I am an experienced
+              fullstack MERN developer, I enjoy the front-end a bit more using
+              React & React-Native. I truly love and enjoy working with both
+              those technologies. My goal is to grow as a dev to be the best I
+              can at those two technologies, while staying current with all the
+              trending technologies, and improving my backend skills. I pride
+              myself in being a loving husband & father(fur-babies) and I enjoy
+              working out and gaming out (Apex PSN: NWA_Steele add me) in my
+              free time! Feel free to shoot me an email or text or call.
             </p>
-            <button
+            <a
+              href={"#contact"}
               className="mx-auto sm:mx-0 w-max mt-4 inline-block bg-color-primary p-3 my-auto
                     rounded-lg cursor-pointer border border-color-primary
                     hover:bg-transparent hover:border-color-primary-variant hover:text-color-primary"
             >
               Let's Talk
-            </button>
+            </a>
           </div>
         </div>
       </div>

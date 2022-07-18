@@ -9,13 +9,14 @@ const HeaderComponent = () => {
         >
           Download CV
         </button>
-        <button
+        <a
+          href={"#contact"}
           className="w-max inline-block bg-color-primary p-3
                     rounded-lg cursor-pointer border border-color-primary
                     hover:bg-white hover:border-transparent hover:text-color-primary"
         >
           Let's Talk
-        </button>
+        </a>
       </div>
     );
   };
