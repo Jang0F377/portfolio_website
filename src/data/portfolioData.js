@@ -1,4 +1,14 @@
 export const PORTFOLIODATA = [
+  ,
+  {
+    name: "My Medium clone build",
+    technologies: "Next.JS, Typescript, Sanity.io, Tailwind CSS",
+    githubUrl: "https://github.com/Jang0F377/my-medium-clone",
+    briefDescription: "My version clone build of Medium, the blog giant.",
+    imageUrl: require("../assets/my-medium-clone.png"),
+    imageUrl2: require("../assets/e-commerce2.png"),
+    imageUrl3: require("../assets/ecommerce3.png"),
+  },
   {
     name: "E-commerce site",
     technologies: "React.JS, Redux, Tailwind, Lottie, Firebase, Material UI",
