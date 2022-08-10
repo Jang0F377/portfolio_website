@@ -6,8 +6,8 @@ export const PORTFOLIODATA = [
     githubUrl: "https://github.com/Jang0F377/my-medium-clone",
     briefDescription: "My version clone build of Medium, the blog giant.",
     imageUrl: require("../assets/my-medium-clone.png"),
-    imageUrl2: require("../assets/e-commerce2.png"),
-    imageUrl3: require("../assets/ecommerce3.png"),
+    imageUrl2: require("../assets/my-medium-clone.png"),
+    imageUrl3: require("../assets/my-medium-clone.png"),
   },
   {
     name: "E-commerce site",
