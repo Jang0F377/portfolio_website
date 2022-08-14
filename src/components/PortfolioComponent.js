@@ -55,6 +55,17 @@ const PortfolioComponent = () => {
           </div>
         </div>
         <div className="flex justify-end">
+          {item.liveUrl ?
+              <a
+                  href={item.liveUrl}
+                  className="flex w-max m-2 mb-3 mr-3 inline-block bg-color-primary p-3
+                    rounded-lg cursor-pointer border border-color-primary
+                    hover:bg-transparent hover:border-color-primary-variant hover:text-color-primary"
+              >
+                View Live
+              </a>
+
+              : <div/>}
           <a
             href={item.githubUrl}
             className="flex w-max m-2 mb-3 mr-3 inline-block bg-color-primary p-3
@@ -76,6 +87,7 @@ const PortfolioComponent = () => {
           <div className="text-color-primary text-2xl md:text-3xl">
             My Portfolio
           </div>
+          <p className='text-white'>Please View Github/View live to view better pictures/videos</p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2  lg:gap-x-10">
           {PORTFOLIODATA.map((item) => (

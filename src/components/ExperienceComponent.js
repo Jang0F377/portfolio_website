@@ -23,7 +23,7 @@ const ExperienceComponent = () => {
                   <BsPatchCheckFill className="text-xl text-color-primary" />
                 </div>
                 <div className="row-span-2 col-span-1 ">
-                  <div className="text-xl text-white">React</div>
+                  <div className="text-xl text-white">React.JS</div>
                   <small className="text-color-light">Experienced</small>
                 </div>
               </article>
@@ -41,7 +41,7 @@ const ExperienceComponent = () => {
                   <BsPatchCheckFill className="text-xl text-color-primary" />
                 </div>
                 <div className="row-span-2 col-span-1 ">
-                  <div className="text-xl text-white">Javascript</div>
+                  <div className="text-xl text-white">Next.JS</div>
                   <small className="text-color-light">Experienced</small>
                 </div>
               </article>
@@ -59,7 +59,7 @@ const ExperienceComponent = () => {
                   <BsPatchCheckFill className="text-xl text-color-primary" />
                 </div>
                 <div className="row-span-2 col-span-1 ">
-                  <div className="text-xl text-white">HTML</div>
+                  <div className="text-xl text-white">Typescript</div>
                   <small className="text-color-light">Experienced</small>
                 </div>
               </article>
@@ -68,8 +68,8 @@ const ExperienceComponent = () => {
                   <BsPatchCheckFill className="text-xl text-color-primary" />
                 </div>
                 <div className="row-span-2 col-span-1 ">
-                  <div className="text-xl text-white">CSS</div>
-                  <small className="text-color-light">Intermediate</small>
+                  <div className="text-xl text-white">Javascript</div>
+                  <small className="text-color-light">Experienced</small>
                 </div>
               </article>
               <article className="grid grid-rows-3 grid-flow-col grid-cols-1 lg:grid-rows-2 lg:grid-cols-2 place-items-center text-center p-3 px-7">
@@ -77,7 +77,7 @@ const ExperienceComponent = () => {
                   <BsPatchCheckFill className="text-xl text-color-primary" />
                 </div>
                 <div className="row-span-2 col-span-1 ">
-                  <div className="text-xl text-white">Bootstrap</div>
+                  <div className="text-xl text-white">Tailwind CSS</div>
                   <small className="text-color-light">Experienced</small>
                 </div>
               </article>
@@ -118,8 +118,8 @@ const ExperienceComponent = () => {
                       <BsPatchCheckFill className="text-xl text-color-primary" />
                     </div>
                     <div className="row-span-2 col-span-1 ">
-                      <div className="text-xl text-white">MySQL</div>
-                      <small className="text-color-light">Basic</small>
+                      <div className="text-xl text-white">Sanity.io</div>
+                      <small className="text-color-light">Intermediate</small>
                     </div>
                   </article>
                 </div>
