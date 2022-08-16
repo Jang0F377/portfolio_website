@@ -1,14 +1,18 @@
+import CV from "../assets/MG-Resume.pdf";
+
 const HeaderComponent = () => {
   const CallToAction = () => {
     return (
       <div className="mt-10 md:my-10 flex gap-6 justify-center">
-        <button
+        <a
+          href={CV}
+          download
           className="w-max inline-block bg-background-primary p-3
                     rounded-lg cursor-pointer border border-color-primary
                     hover:bg-white hover:border-transparent hover:text-background-primary"
         >
           Download CV
-        </button>
+        </a>
         <a
           href={"#contact"}
           className="w-max inline-block bg-color-primary p-3
